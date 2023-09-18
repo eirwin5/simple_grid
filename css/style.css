@@ -10,7 +10,7 @@ h1, h2{
   width: 800px; /* 1. Give it a width of 800px */
   margin: auto; /* 2. Center it in the middle of the body */
   display: grid; /* 3. Set the display to grid */
-  grid-template-columns: 200px 200px 200px; /* 4. Give it 3 columns of equal size (1fr each) */
+  grid-template-columns: 25% 25% 25%; /* 4. Give it 3 columns of equal size (1fr each) */
   grid-gap: 10px; /* 5. Set a grid gap of 10px */
   background-color: #91f321; /* 6. Add a background color of #91f321 */
   background-image: url(../images/background.jpg); /* 7. Give it a background image using the image in the images folder */
