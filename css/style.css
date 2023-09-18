@@ -15,7 +15,7 @@ h1, h2{
   background-color: #91f321; /* 6. Add a background color of #91f321 */
   background-image: url(../images/background.jpg); /* 7. Give it a background image using the image in the images folder */
   border: solid 3px black; /* 8. Add a solid black 3px border */
-  border-radius: 25px; /* 9. Round the corners */
+  border-radius: 25px; /* 9. Round the corners */  
   }
 
 /******  Style the divs inside of the grid ******/
@@ -35,3 +35,29 @@ h1, h2{
 
 
 /* Now try and style the individual boxes using grid-column  to match the picture at 1200px.*/
+/* Example 1 */
+.item2 {
+	grid-column-start: 3;
+}
+
+.item3 {
+	grid-column-start: 2;
+}
+
+.item4 {
+	grid-column-start: 1;
+}
+
+.item5 {
+  	grid-column-start: 3;
+}
+
+/* Example 2 */
+.item_a {
+	grid-column-start: 3;
+	grid-row-start: 3;
+
+}
+.item_b {
+	grid-column-start: 3;
+}
