@@ -1,7 +1,7 @@
 /****** Let's style our h1 & h2 headings *******/
 h1, h2{
   text-align: center; /* 1. Make the text centered */
-  margin:10px; /* 2. Give it a margin of 10px */
+  margin: 10px; /* 2. Give it a margin of 10px */
   font-size:200% /* 3. Font size should be twice the normal size  */
   }
 
@@ -10,12 +10,13 @@ h1, h2{
   width: 800px; /* 1. Give it a width of 800px */
   margin: auto; /* 2. Center it in the middle of the body */
   display: grid; /* 3. Set the display to grid */
-  grid-template-columns: 1fr 1fr 1fr; /* 4. Give it 3 columns of equal size (1fr each) */
-  grid-gap: 10px; /* 5. Set a g rid gap of 10px */
+  grid-template-columns: 200px 200px 200px; /* 4. Give it 3 columns of equal size (1fr each) */
+  grid-gap: 10px; /* 5. Set a grid gap of 10px */
   background-color: #91f321; /* 6. Add a background color of #91f321 */
   background-image: url(../images/background.jpg); /* 7. Give it a background image using the image in the images folder */
   border: solid 3px black; /* 8. Add a solid black 3px border */
   border-radius: 25px; /* 9. Round the corners */  
+  justify-content: space-around; /* justify-content:; */
   }
 
 /******  Style the divs inside of the grid ******/
@@ -28,11 +29,10 @@ h1, h2{
 }
 
 /* Go back to the parent container and play with ...*/
-  /*justify-content:; */
+  /* justify-content:; */
 	/* justify-items:;  */
 	/* align-items:; */
 	/* align-content:; */
-
 
 /* Now try and style the individual boxes using grid-column  to match the picture at 1200px.*/
 /* Example 1 */
